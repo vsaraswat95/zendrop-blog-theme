@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+    <defs>
+        <linearGradient id="prefix__a" x1="0%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#86E1B2" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#86E1B2"/>
+        </linearGradient>
+    </defs>
+    <g fill="none">
+        <path fill="url(#prefix__a)" d="M0 17.525H12V24.525H0z" transform="translate(-.033 -.4)"/>
+        <path fill="#86E1B2" d="M6 16.027H16V26.024H6z" transform="translate(-.033 -.4)"/>
+        <path fill="url(#prefix__a)" d="M28.998 17.525H40.998000000000005V24.525H28.998z" transform="translate(-.033 -.4) matrix(-1 0 0 1 69.997 0)"/>
+        <path fill="#86E1B2" d="M25.998 16.027H35.998000000000005V26.024H25.998z" transform="translate(-.033 -.4) matrix(-1 0 0 1 61.997 0)"/>
+        <path fill="url(#prefix__a)" d="M14.999 3.028H26.999000000000002V10.028H14.999z" transform="translate(-.033 -.4) rotate(90 21 6.528)"/>
+        <path fill="#86E1B2" d="M15.999 6.028H25.999000000000002V16.025H15.999z" transform="translate(-.033 -.4) rotate(90 21 11.026)"/>
+        <path fill="url(#prefix__a)" d="M14.999 32.026H26.999000000000002V39.026H14.999z" transform="translate(-.033 -.4) matrix(0 -1 -1 0 56.525 56.525)"/>
+        <path fill="#86E1B2" d="M15.999 26.026H25.999000000000002V36.022999999999996H15.999z" transform="translate(-.033 -.4) matrix(0 -1 -1 0 52.023 52.023)"/>
+    </g>
+</svg>

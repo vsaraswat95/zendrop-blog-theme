@@ -1,0 +1,51 @@
+<div class="col-md-4">
+    <div class="card mb-3">
+        <a href="{{url}}" style="min-height: 21rem;">
+            <img class="card-img-top" src="{{img_url feature_image size=" m "}}" alt="{{title}}">
+        </a>
+        <a href="{{url}}" style="min-height: 25rem;">
+            <div class="card-body">
+                <h5 class="card-title">
+                    {{#if primary_tag}}
+                        {{#primary_tag}}
+                            <div class="post-card-primary-tag">{{name}}</div>
+                        {{/primary_tag}}
+                    {{/if}}
+                </h5>
+                <h2 class="post-card-title">{{title}}</h2>
+                <p class="card-text">
+                    <section class="post-card-excerpt">
+                        {{#if feature_image}}
+                            <p>{{excerpt words="30"}}</p>
+                        {{else}}
+                            <p>{{excerpt words="30"}}</p>
+                        {{/if}}
+                    </section>
+                </p>
+            </div>
+        </a>
+        <div class="card-footer">
+            <footer class="post-card-meta">
+                <ul class="author-list">
+                    {{#foreach authors}}
+                    <li class="author-list-item">
+                        <div class="author-name-tooltip">
+                            {{name}}
+                        </div>
+                        {{#if profile_image}}
+                        <a href="{{url}}" class="static-avatar">
+                            <img class="author-profile-image" src="{{img_url profile_image size=" xs "}}" alt="{{name}}" />
+                        </a>
+                        {{else}}
+                        <a href="{{url}}" class="static-avatar author-profile-image">{{> "icons/avatar"}}</a> {{/if}}
+                    </li>
+                    {{/foreach}}
+                </ul>
+                <div class="post-card-byline-content">
+                    <span>{{#has author="count:>2"}}Multiple authors{{else}}{{authors}}{{/has}}</span>
+                    <span class="post-card-byline-date"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time> <span class="bull">&bull;</span> {{reading_time}}</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
