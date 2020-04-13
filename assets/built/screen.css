@@ -82,8 +82,75 @@ video {
 	font-size: 100%;
 	vertical-align: baseline
 }
+@font-face {
+	font-family: 'Proxima Nova Regular';
+	src: url('../fonts/ProximaNovaRegular.woff') format('woff2'), url('../fonts/ProximaNovaRegular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Lt';
+	src: url('../fonts/ProximaNova-Semibold.woff2') format('woff2'), url('../fonts/ProximaNova-Semibold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Extra Bold';
+	src: url('../fonts/ProximaNova-Extrabld.woff2') format('woff2'), url('../fonts/ProximaNova-Extrabld.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Lt';
+	src: url('../fonts/ProximaNova-SemiboldIt.woff2') format('woff2'), url('../fonts/ProximaNova-SemiboldIt.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+}
+
 body {
 	line-height: 1
+}
+section.post-card-excerpt p {
+    font-family: 'Proxima Nova Regular' !important;
+	color: #2e2f39;
+	font-size: 14.16px;
+}
+h2.post-card-title {
+    font-size: 18px;
+    color: #2e2f39;
+    font-family: 'Proxima Nova Bold';
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Proxima Nova Lt';
+}
+div#navbarTogglerDemo03 a {
+	font-family: 'Proxima Nova Lt';
+	letter-spacing: 1px;
+    font-size: 13px;
+}
+.footer-main a {
+    font-family: 'Proxima Nova Lt';
+    font-size: 14.16px;
+}
+a#become-an-affiliate-btn {
+    font-size: 14px;
+}
+.col-md-6.footercopyright p {
+	font-family: 'Proxima Nova Lt';
+    font-size: 14.16px;
+}
+.footer-dark a{
+	font-size: 14.16px;
 }
 ol,
 ul {

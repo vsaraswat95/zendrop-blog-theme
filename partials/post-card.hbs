@@ -5,7 +5,7 @@
         </a>
         <a href="{{url}}" style="min-height: 25rem;">
             <div class="card-body">
-                <h5 class="card-title">
+                <h5 class="card-title" style="display: none;">
                     {{#if primary_tag}}
                         {{#primary_tag}}
                             <div class="post-card-primary-tag">{{name}}</div>
@@ -24,7 +24,7 @@
                 </p>
             </div>
         </a>
-        <div class="card-footer">
+        <div class="card-footer" style="display: none;">
             <footer class="post-card-meta">
                 <ul class="author-list">
                     {{#foreach authors}}
